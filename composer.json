@@ -20,7 +20,7 @@
     ],
     "minimum-stability": "alpha",
     "require": {
-        "php": "7.4|^8.0",
+        "php": "^8.0",
         "ext-mbstring": "*",
         "ext-iconv": "*",
         "ext-pdo": "*",
@@ -30,7 +30,7 @@
     },
     "autoload": {
         "psr-4": {
-            "PedhotDev\\LibSitePE\\": "src/"
+            "PedhotDev\\LibSitePE\\": "core/"
         }
     },
     "autoload-dev": {
