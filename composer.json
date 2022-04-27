@@ -1,0 +1,14 @@
+{
+    "name": "pedhotdev/libsitepe",
+    "description": "A simple PHP framework for web application",
+    "type": "library",
+    "license": "Apache",
+    "authors": [
+        {
+            "name": "Pedhot-Dev",
+            "email": "wanzgamerz2@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {}
+}
