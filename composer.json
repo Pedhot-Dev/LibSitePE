@@ -1,14 +1,41 @@
 {
     "name": "pedhotdev/libsitepe",
     "description": "A simple PHP framework for web application",
+    "keywords": ["framework", "php", "libsitepe"],
+    "readme": "",
+    "time": "",
     "type": "library",
     "license": "Apache",
+    "support": {
+        "issues": "https://github.com/Pedhot-Dev/LibSitePE/issues",
+        "source": "https://github.com/Pedhot-Dev/LibSitePE/",
+        "wiki": "https://github.com/Pedhot-Dev/LibSitePE/wiki"
+    },
     "authors": [
         {
             "name": "Pedhot-Dev",
-            "email": "wanzgamerz2@gmail.com"
+            "email": "wanzgamerz2@gmail.com",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "alpha",
-    "require": {}
+    "require": {
+        "php": "7.4|^8.0",
+        "ext-mbstring": "*",
+        "ext-iconv": "*",
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "ext-curl": "*",
+        "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PedhotDev\\LibSitePE\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PedhotDev\\LibSitePE\\Tests\\": "tests/"
+        }
+    }
 }
